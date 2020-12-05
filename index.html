@@ -40,42 +40,107 @@
         </div>
     </nav>
 
-     <div id="loginModal" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg" role="content">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Login </h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-sm-4">
-                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-sm-4">
-                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
-                                </div>
-                                <div class="col-sm-auto">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me
-                                        </label>
-                                    </div>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="ReserveTableModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve a Table </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="NGuests" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input checked type="radio" id="N1" name="NGuests" value="1"> 1 </label>                                                                
+                            </div>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input type="radio" id="N2" name="NGuests" value="2"> 2 </label>                                    
+                            </div>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input type="radio" id="N3" name="NGuests" value="3"> 3 </label>                                                                
+                            </div>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input type="radio" id="N4" name="NGuests" value="4"> 4 </label>                                    
+                            </div>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input type="radio" id="N5" name="NGuests" value="1"> 5 </label>                                                                
+                            </div>
+                            <div class="col-auto col-sm-1">                                    
+                                <label><input type="radio" id="N6" name="NGuests" value="2"> 6 </label>                                    
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Book_section" class="col-12 col-md-2 col-form-label">Section</label>
+                            <div class="col-12 col-md-4">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="chosen_section" id="section1" autocomplete="off" checked> Non-Smoking
+                                    </label>
+                                    <label class="btn btn-danger">
+                                        <input type="radio" name="chosen_section" id="section2" autocomplete="off"> Smoking
+                                    </label>
+                                </div>
+                            </div>
+                        </div>                    
+                        <div class="form-group row">
+                            <label for="Book_date" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                            <div class="col-12 col-md-4">
+                                <input type="text" class="form-control" id="Book_date" name="Book_date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="text" class="form-control" id="Book_time" name="Book_time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Reserve</button>
+                            </div>
+                        </div>                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header class = "jumbotron">
         <div class = "container">
@@ -89,8 +154,7 @@
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">                
                     <a role="button" class="btn btn-block nav-link btn-warning"
-                        data-toggle="tooltip" data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>"
-                        data-placement="bottom" href="#ReserveForm">Reserve Table</a>
+                       data-toggle="modal" data-target="#ReserveTableModal"> Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -287,11 +351,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
 </body>
 
 </html>
