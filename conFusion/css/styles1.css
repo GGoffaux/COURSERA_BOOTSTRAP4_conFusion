@@ -1,0 +1,74 @@
+.row-header {
+  margin: 0 auto;
+  padding: 0 0; }
+
+.row-content {
+  margin: 0 auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #D1C4E9;
+  margin: 0 auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0 auto;
+  padding: 70px 30px;
+  background: #9575CD; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding-top: 50px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #512DAB; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-left: 1%; }
+
+nav a {
+  text-decoration: none; }
+
+.carousel {
+  background: #512DAB; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+.modal {
+  color: #0f0f0f; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+#carouselBtn {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+.modal .modal-header {
+  background-color: #512DAB;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body, .modal .modal-footer {
+  background-color: #D1C4E9; }
