@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>OMNI Sport Events Guide - football events</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- endbuild -->
+    <script src="https://kit.fontawesome.com/aea97e521a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+               <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logo.png" height="30" width="62"></a>
+           </div>
+           <div class="collapse navbar-collapse d-sm-flex align-items-sm-start" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link text-sm-center" href="./index.html"><span class="fa fa-home fa-lg"></span> <br class="d-none d-sm-inline d-lg-none"><span> Popular</span> <span> Events</span> </a></li>                   
+                    
+                    <li class="nav-item active"><a class="nav-link text-sm-center" href="./Football.html"><span class="fa fa-futbol-o fa-lg"></span> Football</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link text-sm-center" href="#"><span class="fas fa-baseball-ball fa-lg"></span> Tennis</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link text-sm-center" href="./Cyclism.html"><span class="fas fa-bicycle    fa-lg"></span> Cyclism</a></li>                                           
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-sm-center dropdown-toggle" href="#" id="Another_Sports_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fa fa-list fa-lg"></span> <br class="d-none d-sm-inline d-lg-none"> <span> Another</span> <br class="d-none d-sm-inline d-lg-none"> <span> Sports</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><span class="fas fa-volleyball-ball fa-lg"></span> Volley-ball</a>
+                            <a class="dropdown-item" href="#"><span class="fas fa-hockey-puck fa-lg"></span> Ice Hockey</a>
+                            <a class="dropdown-item" href="#"><span class="fas fa-swimmer fa-lg"></span> Swimming</a>
+                            
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link text-sm-center" href="#"><span class="fas fa-cog fa-lg"></span>  Options</a></li>
+                </ul>
+                 <div class="navbar-text ml-auto ml-sm-3 mt-1 mt-lg-2">
+                    <a  role="button" id="LoginButton"> <span class="fa fa-sign-in fa-lg"></span> Login</a>
+                </div>
+            </div>
+                            
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <header class = "jumbotron bg-secondary">
+        <div class = "container">
+            <div class = "row row-header">
+                <div class = "col-12 col-sm-7">
+                    <h2>Football Events Guide</h2>                   
+                </div>                
+            </div>
+        </div>
+    </header>
+
+    <div class = "container">
+        <div class="row row-content">
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/UEFA_Euro_2020_Logo.png" alt="Euro2020" width="120" height="137">
+                    <div class="media-body">
+                        <h3 class="mt-0">UEFA Euro 2020</h3>
+                        <p class="d-none d-sm-block d-md-none d-lg-block"> From 11 June 2021 to 11 July 2021 </br> 24 National Teams </br> 12 cities in 12 countries </p> 
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/Premier_League_2020_21.png" alt="Premier_League_2020_21" width="120" height="137">
+                    <div class="media-body">
+                        <h3 class="mt-0">2020-21 Premier League</h3>
+                        <p class="d-none d-sm-block d-md-none d-lg-block"> From 12 September 2020 to 23 May 2021 </br> 20 Club Teams </br> Defending champion : Liverpool</p> 
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/La_Liga_2020_21.png" alt="Euro2020" width="120" height="137">
+                    <div class="media-body">
+                        <h3 class="mt-0">2020-21 La Liga</h3>
+                        <p class="d-none d-sm-block d-md-none d-lg-block"> From 12 September 2020 to 23 May 2021 </br> 20 Club Teams </br> Defending champion : Real Madrid </p> 
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="img/Bundesliga_2020_21.png" alt="Euro2020" width="120" height="137">
+                    <div class="media-body">
+                        <h3 class="mt-0">2020-21 Bundesliga</h3>
+                        <p class="d-none d-sm-block d-md-none d-lg-block"> From 18 September 2020 to 22 May 2021 </br> 18 Club Teams </br> Defending champion : Bayern Munich</p> 
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class = "footer">
+        <div class = "container">
+            <div class = "row">             
+                <div class = "col-4 col-sm-5 offset-1">
+                    <h5>Links</h5>
+                    <ul class = "list-unstyled">
+                        <li><a href="./index.html">Popular Events</a></li>
+                        <li><a href="./Football.html">Football</a></li>
+                        <li><a href="#">Tennis</a></li>
+                        <li><a href="./Cyclism.html">Cyclism</a></li>
+                        <li><a href="#">Options</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class = "col-12 col-sm-6 align-self-center mt-3">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class = "row justify-content-center mt-3">             
+                <div class = "col-auto">
+                    <p>© Copyright 2020 GG Omnis</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>
