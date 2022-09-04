@@ -4,3 +4,5 @@ Coursera course
 
 Université des sciences et technologies de Hong Kong
 
+It contains the restaurant web page project, conFusion and a personal project based on bootstrap, OMNI. 
+
